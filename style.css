@@ -39,3 +39,45 @@ main p{
 .image img{
     width: 100%;
 }
+
+/*Dispositivos extra pequenos (celulares em posição porta retrato, menores do que 576px) */
+
+@media(max-width: 576px) {
+    .cabecalho{
+        background-color: rgb(500, 100, 20);
+        text-align: center;
+    }
+    .cabecalho nav{
+        float: none;
+    }
+    .cabecalho nav li{
+        display: block;
+    }
+}
+
+
+/* Dispositivos pequenos (Celulares em posição paisagem, menos de 768px) */
+
+/* @media(max-width: 768px) {
+    .cabecalho{
+        background-color: rgb(50, 100, 30);
+    }
+} */
+
+/*Dispositivos médios (Tablets, menos de 992px) */
+
+/* @media(max-width: 992px) {
+    .cabecalho{
+        background-color: rgb(08, 08, 30);
+    }
+} */
+
+/* Dispositivos grandes (Descktop, menor de 1200px) */
+
+/* @media(max-width: 1200px) {
+    .cabecalho{
+        background-color: rgb(40, 08, 08);
+    }
+} */
+
+/*Despositivos extra grandes (Descktop grande, maior de 1200px ou mais, não tem brackpoint */
